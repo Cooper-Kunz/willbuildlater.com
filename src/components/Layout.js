@@ -11,25 +11,26 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <h2
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            marginBottom: rhythm(2),
+            marginTop: rhythm(2),
             textAlign: 'center',
+            fontSize: '32px'
           }}
         >
           <Link
             style={{
               boxShadow: 'none',
-              textDecoration: 'none',
+              textDecoration: 'underline',
               color: 'inherit',
             }}
             to={'/'}
           >
             {title}
           </Link>
-        </h1>
+        </h2>
       )
     } else {
       header = (
