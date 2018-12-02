@@ -11,7 +11,7 @@ Eventually, I'd like to turn it into an example of how you can build full featur
 `gatsby cli`
 
 ## Installation
-`yarn install`
+`npm install`
 
 ## Running in development
 `gatsby develop`
